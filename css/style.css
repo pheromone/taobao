@@ -241,14 +241,52 @@ body {
     width: 80px;
     height: 80px;
 }
-
+/* 搜搜索下的导航条 */
 .wrapper .screen-nav {
     width: 1190px;
     height: 30px;
-    background-color: gold;
+    background: linear-gradient(to right,#ff9000 0,#ff5000 100% );
     margin: 0 auto;
 }
-
+.wrapper .screen-nav .screen-nav-con h2{
+    float: left;
+    background-color: #ff4400;
+    color: #fff;
+    font-size: 16px;
+    width: 190px;
+    height: 100%;
+    display: block;
+    line-height: 30px;
+    text-align: center
+}
+.wrapper .screen-nav .screen-nav-con ul{
+    float: left;
+}
+.wrapper .screen-nav .screen-nav-con ul li{
+    float: left;
+    color: #fff;
+    line-height: 30px;
+    margin: 0 3px;
+    padding: 0 4px;
+    position: relative;
+}
+.wrapper .screen-nav .screen-nav-con ul li:hover::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 15px;
+    background-image: url(../img/aliwangwang.png);
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -15px;
+    background-size: center;
+}
+.wrapper .screen-nav .screen-nav-con ul li a{
+  color: #fff;
+  line-height: 30px;
+  font-weight: 700;
+}
 .wrapper .screnn-box {
     width: 1190px;
     height: 632px;
