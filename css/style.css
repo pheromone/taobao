@@ -287,9 +287,102 @@ body {
   line-height: 30px;
   font-weight: 700;
 }
+/* 主体区域 */
 .wrapper .screnn-box {
     width: 1190px;
     height: 632px;
     border: 1px solid red;
     margin: 0 auto
+}
+.wrapper .screnn-box .main{
+    float: left;
+    width: 890px;
+    height: 632px;
+    border: 1px solid red;
+}
+.wrapper .screnn-box .main .main-inner{
+     width: 890px;
+     height: 522px;
+     border: 1px solid yellow;
+}
+.wrapper .screnn-box .main .main-inner .inner-left{
+    float: left;
+    width: 190px;
+    height: 522px;
+    border: 1px solid #ff4400;
+    background-color:#fff;
+    border-top: none;
+}
+.wrapper .screnn-box .main .main-inner .inner-left ul li{
+    height: 32px;
+    width: 145px;
+    padding-left: 25px;
+    padding-right: 19px;
+    
+
+}
+.wrapper .screnn-box .main .main-inner .inner-left ul li:hover{
+   background-color: #ffe4dc;
+
+}
+.wrapper .screnn-box .main .main-inner .inner-left ul li:hover a{
+    color: #ff5000;
+    
+ }
+.wrapper .screnn-box .main .main-inner .inner-left ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 32px;
+}
+.wrapper .screnn-box .main .main-inner .inner-content{
+    float: left;
+    width: 520PX;
+    height: 522PX;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+.wrapper .screnn-box .main .main-inner .inner-content .lunbo{
+    width: 520px;
+    height: 280px;
+    background-color: red;
+    padding: 8px;
+}
+.wrapper .screnn-box .main .main-inner .inner-content .inner-mall{
+   width: 520px;
+   height: 230px;
+   /* padding: 8px; */
+}
+.wrapper .screnn-box .main .main-inner .inner-content .inner-mall .head img{
+   vertical-align: bottom; 
+}
+.wrapper .screnn-box .main .main-inner .inner-content .inner-mall .head span{
+    font-size: 12px;
+    color:gray;
+ }
+.wrapper .screnn-box .main .main-inner .inner-right{
+    float: left;
+    padding-left: 8px;
+    width: 150px;
+    height: 522px;
+}
+.wrapper .screnn-box .main .main-inner .inner-right .hot span{
+    color: gray;
+   font-size: 16px;
+   display: block;
+   margin-top: 10px;
+}
+.wrapper .screnn-box .main .main-inner .inner-right .hot img{
+   margin-top:5px; 
+}
+.wrapper .screnn-box .main .main-bottom{
+   width: 890px;
+   height: 100px;
+   background-color: red;
+}
+.wrapper .screnn-box .col-right{
+    float: left;
+    width: 290px;
+    height: 632px;
+    border: 1px solid #000000;
 }
