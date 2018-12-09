@@ -386,7 +386,7 @@ body {
     height: 632px;
     border: 1px solid #000000;
 }
-.slide{ width:520px; height:280px; position:relative; margin: 10px 0 0 0px; overflow:hidden;}
+.slide{ width:520px; height:280px; position:relative; margin: 10px 0 0 10px; overflow:hidden;}
 .slide .img{ float:left; position:absolute; }
 .slide .img li{ /*position:absolute;*/ float:left; }
 .slide .btnL,.slide .btnR{ width:24px; height:36px; position:absolute; top: 122px; background:#000; line-height:36px; text-align:center; color:#fff; font-weight:bold; opacity:0.3; display:none;

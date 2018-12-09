@@ -1,3 +1,11 @@
+changeA();
+function changeA(){
+	var hrefArr = document.getElementsByTagName("a");
+	for( var i=0; i<hrefArr.length; i++ ){
+		//全部修改为'dpan';
+		hrefArr[i].href = './details.html'; //修改语句
+	}
+}
 slide1();
 function slide1(){
 	//核心代码在函数changeLeftAndRight里面；自动切换、圆点切换，都是从那些代码改变而来（最原来在html+css2实战课里面12集那里写无缝切换）
