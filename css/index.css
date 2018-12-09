@@ -162,7 +162,7 @@ body {
   right: 0px;
   width: 74px;
   height: 40px;
-  border: 1px solid red;  
+  /* border: 1px solid red;   */
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
@@ -291,14 +291,14 @@ body {
 .wrapper .screnn-box {
     width: 1190px;
     height: 632px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto
 }
 .wrapper .screnn-box .main{
     float: left;
     width: 890px;
     height: 632px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .wrapper .screnn-box .main .main-inner{
      width: 890px;
@@ -308,7 +308,7 @@ body {
 .wrapper .screnn-box .main .main-inner .inner-left{
     float: left;
     width: 190px;
-    height: 522px;
+    height: 520px;
     border: 1px solid #ff4400;
     background-color:#fff;
     border-top: none;
@@ -345,7 +345,7 @@ body {
 .wrapper .screnn-box .main .main-inner .inner-content .lunbo{
     width: 520px;
     height: 280px;
-    background-color: red;
+    /* background-color: red; */
     padding: 8px;
 }
 .wrapper .screnn-box .main .main-inner .inner-content .inner-mall{
@@ -378,8 +378,52 @@ body {
 .wrapper .screnn-box .main .main-bottom{
    width: 890px;
    height: 100px;
-   background-color: red;
+   /* background-color: red; */
 }
+.wrapper .screnn-box .main .main-bottom .content{
+    background-color: white;
+    padding: 14px 12px;
+    position: relative;
+
+
+}
+.wrapper .screnn-box .main .main-bottom .content a{
+    position: absolute;
+    top:14px;
+    left: 200px;
+}
+.wrapper .screnn-box .main .main-bottom .content a img{
+    float: left;
+
+}
+.wrapper .screnn-box .main .main-bottom .content a p{
+    margin-top: 2px;
+    margin-left: 144px;
+    color: #999;
+    height: 36px;
+    line-height: 14px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.wrapper .screnn-box .main .main-bottom .content a h4{
+    margin-top: 2px;
+    margin-left: 144px;
+    color: #333;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+.wrapper .screnn-box .main .main-bottom .content a h4:hover{
+    color: #ff5000;
+}
+.wrapper .screnn-box .main .main-bottom .content .logo-box{
+    width: 180px;
+    height: 73px;
+    background-image: url(../img/pic4.png);
+    background-position: 100%,100%;
+
+} 
+
 .wrapper .screnn-box .col-right{
     float: left;
     width: 290px;
